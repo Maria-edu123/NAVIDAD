@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad - Regalos</title>
+    <link rel="stylesheet" href="../css/estilo1.css">
+</head>
+<body>
+    <script src="../js/ej1.js"></script>
+    <header>
+        <h1>NAVIDAD</h1>
+        <nav>
+                <a href="../index.html">BIENVENIDA</a>
+                <a href="historia.html">HISTORIA</a>
+                <a href="personajes.html">PERSONAJES</a>
+                <a href="regalos.html">REGALOS</a>
+                <a href="comida.html">COMIDA</a>
+            </nav>
+    </header>
+    <div class="caja-regalos">
+        <h2>Opciones de Regalos Navideños</h2>
+        <div class="opciones-regalos">
+            <button type="button" onclick="elegirOpcion('Peluche navideño')">Peluche navideño</button><br><br>
+            <button type="button" onclick="elegirOpcion('Libro de cuentos')">Libro de cuentos</button><br><br>
+            <button type="button" onclick="elegirOpcion('Juego de mesa')">Juego de mesa</button><br><br>
+            <button type="button" onclick="elegirOpcion('Audífonos')">Audífonos</button><br><br>
+            <button type="button" onclick="elegirOpcion('Ropa abrigadora')">Ropa abrigadora</button><br><br>
+            <button type="button" onclick="elegirOpcion('Chocolates y dulces')">Chocolates y dulces</button>
+        </div><br>
+        <div class="regalo-final">
+            <label for="cajaRegalo">Escribe tu regalo:</label><br>
+            <input type="text" id="cajaRegalo" placeholder="Escribe aquí tu regalo...">
+        </div><br>
+        <button type="button" onclick="enviarRegalo()">Enviar</button>
+    </div>
+    <footer>
+        <h5>Diseñado por: Maria Belen Tito Quispe</h5>
+    </footer>
+</body>
+</html>

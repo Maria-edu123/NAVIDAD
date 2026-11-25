@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e21a2e;
+    color: #fff8e7;
+    margin: 20px;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(159, 236, 144);
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    color: #42b138;
+    margin: 10px;
+}
+
+.menu {
+    background-color: #14452f;
+    border: 3px solid #e0a92b;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff8e7;
+    background-color: #9e1b24;
+    border: 2px solid #ffd166;
+    padding: 6px 12px;
+    margin: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pag1 {
+    background-color: #3d1419;
+    border: 3px solid #e0a92b;
+    padding: 15px;
+    margin: 15px;
+}
+
+.bienvenida {
+    background-color: #194d35;
+    border: 2px solid #ffd166;
+    padding: 12px;
+    margin: 10px;
+}
+
+.lista1 {
+    background-color: #243b2a;
+    border: 2px solid #c99724;
+    padding: 12px;
+    margin: 10px;
+}
+
+ul {
+    margin: 8px;
+    padding-left: 25px;
+}
+
+li {
+    margin: 6px;
+    color: #fff3d6;
+}
+
+.tabla1 {
+    background-color: #243b2a;
+    border: 2px solid #c99724;
+    padding: 12px;
+    margin: 10px;
+}
+
+table, .tabla2 {
+    width: 100%;
+    border: 2px solid #ffd166;
+    background-color: #4a191f;
+    padding: 6px;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    border: 2px solid #ffd166;
+}
+
+footer {
+    background-color: #14452f;
+    border: 3px solid #e0a92b;
+    padding: 12px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer h5 {
+    color: #ffd166;
+    margin: 5px;
+}
+#historia {
+    background-color: #194d35;
+    border: 3px solid #e0a92b;
+    padding: 15px;
+    margin: 15px;
+    color: #fff8e7;
+}
+
+#historia p {
+    color: #fff3d6;
+    margin: 10px;
+    padding: 6px;
+}
+
+.imghis {
+    background-color: #3d1419;
+    border: 3px solid #ffd166;
+    padding: 12px;
+    margin: 15px;
+    text-align: center;
+}
+
+.imghis img {
+    width: 200px;
+    height: 160px;
+    border: 2px solid #ffd166;
+    margin: 6px;
+    padding: 4px;
+    background-color: #14452f;
+}
+#seccion-personajes, .contenedor-personajes {
+    background-color: #3d1419;
+    border: 3px solid #e0a92b;
+    padding: 15px;
+    margin: 15px;
+    color: #fff8e7;
+}
+
+.personajes-encabezado {
+    background-color: #194d35;
+    border: 2px solid #ffd166;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+}
+
+.personajes-encabezado p {
+    color: #fff3d6;
+    margin: 6px;
+}
+
+.grid-personajes {
+    background-color: #243b2a;
+    border: 2px solid #c99724;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+}
+
+.tarjeta-personaje {
+    background-color: #4a191f;
+    border: 2px solid #ffd166;
+    padding: 12px;
+    margin: 10px;
+}
+
+.tarjeta-personaje img {
+    width: 120px;
+    height: 100px;
+    border: 2px solid #ffd166;
+    margin: 6px;
+}
+
+.btn-detalles {
+    color: #fff8e7;
+    background-color: #9e1b24;
+    border: 2px solid #ffd166;
+    padding: 6px 12px;
+    margin: 8px;
+}
+.info-personaje {
+    display: none;
+    background-color: #14452f;
+    border: 2px solid #e0a92b;
+    padding: 10px;
+    margin: 8px;
+    color: #fff8e7;
+}
+
+.info-personaje p {
+    color: #fff3d6;
+    margin: 4px;
+}
+.caja-regalos {
+    background-color: #3d1419;
+    border: 3px solid #e0a92b;
+    padding: 15px;
+    margin: 15px;
+    color: #fff8e7;
+    text-align: center;
+}
+
+.opciones-regalos {
+    background-color: #243b2a;
+    border: 2px solid #c99724;
+    padding: 12px;
+    margin: 10px;
+}
+
+.opciones-regalos button {
+    background-color: #9e1b24;
+    color: #fff8e7;
+    border: 2px solid #ffd166;
+    padding: 8px 14px;
+    margin: 5px;
+    width: 220px;
+}
+
+.regalo-final {
+    background-color: #194d35;
+    border: 2px solid #ffd166;
+    padding: 12px;
+    margin: 10px;
+    color: #ffd166;
+}
+
+.regalo-final input {
+    background-color: #fff8e7;
+    color: #2b0f12;
+    border: 2px solid #e0a92b;
+    padding: 6px;
+    margin: 8px;
+    width: 240px;
+    text-align: center;
+}
+
+.caja-regalos button {
+    background-color: #14452f;
+    color: #ffd166;
+    border: 2px solid #ffd166;
+    padding: 8px 18px;
+    margin: 10px;
+}
+.caja-comida {
+    background-color: #3d1419;
+    border: 3px solid #e0a92b;
+    padding: 15px;
+    margin: 15px;
+    color: #fff8e7;
+    text-align: center;
+}
+
+.caja-comida table {
+    width: 100%;
+    border: 3px solid #ffd166;
+    background-color: #243b2a;
+    padding: 8px;
+    margin: 10px;
+}
+
+.caja-comida img {
+    width: 90px;
+    height: 75px;
+    border: 2px solid #ffd166;
+    padding: 3px;
+    margin: 4px;
+    background-color: #14452f;
+}
+
+.caja-comida input {
+    background-color: #fff8e7;
+    color: #2b0f12;
+    border: 2px solid #e0a92b;
+    padding: 5px;
+    margin: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+.monto-comida {
+    background-color: #194d35;
+    border: 2px solid #ffd166;
+    padding: 10px;
+    margin: 10px;
+    color: #ffd166;
+}
+
+.caja-comida button {
+    background-color: #9e1b24;
+    color: #fff8e7;
+    border: 2px solid #ffd166;
+    padding: 8px 16px;
+    margin: 10px;
+}

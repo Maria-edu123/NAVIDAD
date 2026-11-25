@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad - Comida</title>
+    <link rel="stylesheet" href="../css/estilo1.css">
+</head>
+<body>
+    <script src="../js/ej1.js"></script>
+    <header>
+        <h1>NAVIDAD</h1>
+        <nav>
+            <a href="../index.html">BIENVENIDA</a>
+            <a href="historia.html">HISTORIA</a>
+            <a href="personajes.html">PERSONAJES</a>
+            <a href="regalos.html">REGALOS</a>
+            <a href="comida.html">COMIDA</a>
+        </nav>
+    </header>
+    <div class="caja-comida">
+        <h2>Menú de Comidas Navideñas</h2>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Plato</th>
+                <th>Precio</th>
+                <th>¿Cuántos quieres?</th>
+            </tr>
+            <tr>
+                <td><img src="../imagenes/pavoalhorno.jfif" alt="Pavo al horno"></td>
+                <td>Pavo al horno</td>
+                <td>Bs.130</td>
+                <td><input type="number" id="cantPavo" value="0" min="0" onchange="calcularTodo()" onkeyup="calcularTodo()"></td>
+            </tr>
+            <tr>
+                <td><img src="../imagenes/lechonalhorno.jfif" alt="Lechón al horno"></td>
+                <td>Lechón asado</td>
+                <td>Bs.30</td>
+                <td><input type="number" id="cantLechon" value="0" min="0" onchange="calcularTodo()" onkeyup="calcularTodo()"></td>
+            </tr>
+            <tr>
+                <td><img src="../imagenes/paneton.jfif" alt="Panetón"></td>
+                <td>Panetón</td>
+                <td>Bs.35</td>
+                <td><input type="number" id="cantPaneton" value="0" min="0" onchange="calcularTodo()" onkeyup="calcularTodo()"></td>
+            </tr>
+            <tr>
+                <td><img src="../imagenes/chocolate.jfif" alt="Chocolate caliente"></td>
+                <td>Chocolate caliente</td>
+                <td>Bs.15</td>
+                <td><input type="number" id="cantChocolate" value="0" min="0" onchange="calcularTodo()" onkeyup="calcularTodo()"></td>
+            </tr>
+            <tr>
+                <td><img src="../imagenes/ensalada.jfif" alt="Ensalada navideña"></td>
+                <td>Ensalada navideña</td>
+                <td>Bs.30</td>
+                <td><input type="number" id="cantEnsalada" value="0" min="0" onchange="calcularTodo()" onkeyup="calcularTodo()"></td>
+            </tr>
+        </table><br>
+        <div class="monto-comida">
+            <label for="montoTotal">Monto total (Bs.):</label><br>
+            <input type="text" id="montoTotal" value="0" readonly>
+        </div><br>
+        <button type="button" onclick="realizarPedido()">Realizar pedido</button>
+    </div>
+    <footer>
+        <h5>Diseñado por: Maria Belen Tito Quispe</h5>
+    </footer>
+</body>
+</html>

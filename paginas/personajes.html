@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad - Personajes</title>
+    <link rel="stylesheet" href="../css/estilo1.css">
+</head>
+<body>
+    <script src="../js/ej1.js"></script>
+    <header>
+        <h1>NAVIDAD</h1>
+        <nav>
+                <a href="../index.html">BIENVENIDA</a>
+                <a href="historia.html">HISTORIA</a>
+                <a href="personajes.html">PERSONAJES</a>
+                <a href="regalos.html">REGALOS</a>
+                <a href="comida.html">COMIDA</a>
+            </nav>
+    </header>
+    <div id="seccion-personajes" class="contenedor-personajes">
+        <div class="personajes-encabezado">
+            <h2>Personajes Navideños</h2>
+            <p>Haz clic en el botón de cada personaje para ver su historia y descripción.</p>
+        </div>
+        <div class="grid-personajes">
+            <div class="tarjeta-personaje">
+                <img src="../imagenes/papanoel.jfif" alt="Papá Noel">
+                <h3>Papá Noel</h3>
+                <button type="button" class="btn-detalles" onclick="mostrarInfo('papa-noel')">Ver Descripción</button>
+                <div id="papa-noel" class="info-personaje">
+                    <p>Papá Noel es un personaje navideño alegre y bondadoso, representado como un anciano corpulento
+                        de mejillas sonrosadas, risa contagiosa y una abundante barba blanca.
+                        Viste un característico traje rojo con bordes de piel blanca, un gorro a juego,
+                        y cinturón y botas de color negro. Vive en el Polo Norte junto a sus duendes, quienes 
+                        fabrican los juguetes que él reparte en su trineo tirado por renos voladores durante la noche
+                        de Nochebuena, entrando por las chimeneas para dejar regalos a los niños.</p>
+                </div>
+            </div>
+            <div class="tarjeta-personaje">
+                <img src="../imagenes/reyes.jfif" alt="Reyes Magos">
+                <h3>Los Reyes Magos</h3>
+                <button type="button" class="btn-detalles" onclick="mostrarInfo('reyes-magos')">Ver Descripción</button>
+                <div id="reyes-magos" class="info-personaje">
+                    <p>Los Reyes Magos, llamados Melchor, Gaspar y Baltasar, son tres sabios procedentes 
+                        de Oriente que, según la tradición cristiana, viajaron guiados por una estrella brillante hasta 
+                        Belén para rendir homenaje al niño Jesús recién nacido. Se les representa montados en camellos 
+                        y ataviados con lujosas túnicas, capas y coronas reales, llevando consigo tres valiosas ofrendas 
+                        simbólicas: oro, incienso y mirra. En la actualidad, su figura es central en las celebraciones 
+                        navideñas de muchos países hispanohablantes, donde la noche del 5 de enero recorren las casas para 
+                        dejar regalos a los niños que se han portado bien durante el año.</p>
+                </div>
+            </div>
+            <div class="tarjeta-personaje">
+                <img src="../imagenes/duende.jfif" alt="El Duende">
+                <h3>Los Duendes</h3>
+                <button type="button" class="btn-detalles" onclick="mostrarInfo('duende')">Ver Descripción</button>
+                <div id="duende" class="info-personaje">
+                    <p>Los duendes navideños son pequeñas criaturas mágicas y juguetonas que ayudan a Papá Noel en 
+                        su taller del Polo Norte. Se les suele representar con orejas puntiagudas, sonrisas traviesas 
+                        y una vestimenta colorida compuesta por trajes verdes y rojos, zapatos terminados en punta con 
+                        cascabeles y gorros largos y picudos. Son trabajadores incansables, hábiles y muy alegres que 
+                        dedican todo el año a fabricar, envolver y organizar los juguetes, además de cuidar de los renos 
+                        para asegurar que todo esté listo para la noche de Navidad.</p>
+                </div>
+            </div>
+            <div class="tarjeta-personaje">
+                <img src="../imagenes/rodolfo.jfif" alt="Reno Rodolfo">
+                <h3>Rodolfo el Reno</h3>
+                <button type="button" class="btn-detalles" onclick="mostrarInfo('rodolfo')">Ver Descripción</button>
+                <div id="rodolfo" class="info-personaje">
+                    <p>Rodolfo el reno es el más famoso y querido de los renos que tiran del trineo de Papá Noel, 
+                        fácilmente reconocible por su peculiar nariz roja y brillante. Aunque al principio era 
+                        objeto de burlas por parte de los demás renos debido a esta característica única, su 
+                        destino cambió una Nochebuena muy nublada y con tormenta, cuando Papá Noel le pidió que 
+                        liderara el trineo para iluminar el camino con su resplandeciente nariz. Desde entonces, 
+                        simboliza la superación y el valor de ser diferente, convirtiéndose en el guía indispensable 
+                        que asegura que los regalos lleguen a tiempo a todos los hogares.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <h5>Diseñado por: Maria Belen Tito Quispe</h5>
+    </footer>
+</body>
+</html>
